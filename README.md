@@ -54,11 +54,11 @@ We have provided test data for all the resources.
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [-] Create a new branch: `git checkout -b <firstName-lastName>`.
 - [ ] Implement MVP on your newly created `<firstName-lastName>` branch.
-- [ ] Commit & push your code regularly and meaningfully.
+- [X] Commit & push your code regularly and meaningfully.
 
 ### Task 2: Project Requirements (MVP)
 
@@ -68,20 +68,20 @@ Your finished project must include all of the following requirements:
 
 A _"test"_ script already exists you can use to run tests against your code.
 
-- [ ] Write an _npm script_ named _"start"_ that uses `node` to run the API server.
-- [ ] Write an _npm script_ named _"server"_ that uses `nodemon`to run the API server.
-- [ ] Install _nodemon_ as a development dependency only that would not be used in production.
+- [X] Write an _npm script_ named _"start"_ that uses `node` to run the API server.
+- [X] Write an _npm script_ named _"server"_ that uses `nodemon`to run the API server.
+- [X] Install _nodemon_ as a development dependency only that would not be used in production.
 
 #### Build an API
 
-- [ ] Inside `api/actions/actions-router.js` build endpoints for performing CRUD operations on _actions_:
+- [X] Inside `api/actions/actions-router.js` build endpoints for performing CRUD operations on _actions_:
   - `[GET] /api/actions` sends an array of actions (or an empty array) as the body of the _response_.
   - `[GET] /api/actions/:id` sends an action with the given `id` as the body of the _response_.
   - `[POST] /api/actions` sends the newly created action as the body of the _response_.
   - `[PUT] /api/actions/:id` sends the updated action as the body of the _response_.
   - `[DELETE] /api/actions/:id` sends no _response_ body.
 
-- [ ] Inside `api/projects/projects-router.js` build endpoints for performing CRUD operations on _projects_:
+- [X] Inside `api/projects/projects-router.js` build endpoints for performing CRUD operations on _projects_:
   - `[GET] /api/projects` sends an array of projects (or an empty array) as the body of the response.
   - `[GET] /api/projects/:id` sends a project with the given `id` as the body of the _response_.
   - `[POST] /api/projects` sends the newly created project as the body of the _response_.
@@ -91,12 +91,12 @@ A _"test"_ script already exists you can use to run tests against your code.
 - [ ] Inside `api/projects/projects-router.js` add an endpoint for retrieving the list of actions for a project:
   - `[GET] /api/projects/:id/actions` sends an array of actions (or an empty array) as the body of the response.
 
-- [ ] When adding an action, make sure the `project_id` provided belongs to an existing `project`.
-- [ ] If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
-- [ ] Use an HTTP client like `HTTPie`, `Postman` or `Insomnia` to test the API's endpoints.
-- [ ] Use Express Routers to organize your endpoints.
-- [ ] Your `server.js` file lives inside the `api` folder.
-- [ ] Your `index.js` file lives at the root of the project.
+- [X] When adding an action, make sure the `project_id` provided belongs to an existing `project`.
+- [X] If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
+- [X] Use an HTTP client like `HTTPie`, `Postman` or `Insomnia` to test the API's endpoints.
+- [X] Use Express Routers to organize your endpoints.
+- [X] Your `server.js` file lives inside the `api` folder.
+- [X] Your `index.js` file lives at the root of the project.
 
 **Notes:**
 

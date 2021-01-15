@@ -91,3 +91,6 @@ typings/
 
 # test db
 test.db3
+
+# env
+.env
