@@ -57,7 +57,7 @@ We have provided test data for all the resources.
 - [X] Create a forked copy of this project.
 - [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [-] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Implement MVP on your newly created `<firstName-lastName>` branch.
+- [X] Implement MVP on your newly created `<firstName-lastName>` branch.
 - [X] Commit & push your code regularly and meaningfully.
 
 ### Task 2: Project Requirements (MVP)
